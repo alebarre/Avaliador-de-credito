@@ -4,29 +4,160 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b1ff80-199a-4c15-9465-5adbb0909d6f" name="Changes" comment="" />
+    <list default="true" id="b3b1ff80-199a-4c15-9465-5adbb0909d6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/src/main/java/io/github/cursodesouza/eurekaserver/EurekaserverApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/src/main/java/io/github/cursodesouza/eurekaserver/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/bin/src/test/java/io/github/cursodesouza/eurekaserver/EurekaserverApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/io/github/cursodesouza/eurekaserver/EurekaserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/io/github/cursodesouza/eurekaserver/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/io/github/cursodesouza/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/logs/log-file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/logs/log-file.log.2023-08-16.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/MscartoesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/application/CartaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/application/CartoesResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/application/ClienteCartaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/application/representation/CartaoSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/application/representation/CartoesPorClienteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/domain/BandeiraCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/domain/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/domain/ClienteCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/domain/DadosSolicitacaoEmissaoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/infra/repository/CartaoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodesouza/mscartoes/infra/repository/ClienteCartaoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscartoes/src/test/java/io/github/cursodesouza/mscartoes/MscartoesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2UfYc32I4cGmGw73BYkGAquE7Z8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/aleba/Projects/spring/micro-servicos/projeto-valiador-credito/eurekaserver",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "30a1d23ad88cefeb5bf0e17491c6bd01",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in eurekaserver">
+    <configuration name="All in eurekaserver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.cursodesouza.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mscloudgateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.cursodesouza.mscludgateway.MsCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsavaliadorcreditoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="msavaliadorcredito" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.cursodsouza.msavaliadorcredito.MsavaliadorcreditoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscartoesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="mscartoes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.cursodesouza.mscartoes.MscartoesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsclientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="msclientes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.cursodesouza.msclientes.MsclientesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in eurekaserver" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,11 +166,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693332179769</updated>
-      <workItem from="1693332180867" duration="10000" />
+      <workItem from="1693332180867" duration="62000" />
+      <workItem from="1693333071079" duration="4071000" />
+      <workItem from="1693338194980" duration="41000" />
+      <workItem from="1693338246190" duration="2744000" />
+      <workItem from="1693341194685" duration="2495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
